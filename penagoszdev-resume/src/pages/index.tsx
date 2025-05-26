@@ -12,17 +12,17 @@ import AvatarMolecule from '@/components/molecule/avatar'
 
 const index = () => {
   return (
-    <div>
-      <Face />  
-      <Instagram />
-      <Youtube />
-      <Linkedin />
-      <Github />
-      <Avatar />
-      <Status />
-      <NameDev />
-      <RolDev />
-      <AvatarMolecule />
+    <div className='flex flex-row items-center'>
+      <div>                           
+        Left Bar
+      </div>
+      <div>
+        Main Bar
+      </div>
+      <div>
+        Right Bar
+      </div>
+      
 
 
 
