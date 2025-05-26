@@ -9,24 +9,24 @@ import Status from '@/components/atom/sidebar/status'
 import NameDev from '@/components/atom/sidebar/nameDev'
 import RolDev from '@/components/atom/sidebar/rolDev'
 import AvatarMolecule from '@/components/molecule/avatar'
+import RightMenu from '@/organism/rightMenu'
 
 const index = () => {
   return (
-    <div className='flex flex-row items-center'>
-      <div>                           
-        Left Bar
+    <div className='flex min-h-screen bg-gray-500'>
+      {/* LEFT BAR */}
+      <div className='w-1/4 bg-orange-300 p-4'>                           
+        <AvatarMolecule />
       </div>
-      <div>
+
+      {/* Main Bar */}
+      <div className=' w-1/2 bg-blue-400'>
         Main Bar
       </div>
-      <div>
+      <div className='w-1/4 bg-green-500'>
         Right Bar
       </div>
       
-
-
-
-      index
     </div>
   )
 }
