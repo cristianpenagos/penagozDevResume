@@ -13,6 +13,7 @@ import RightMenu from '@/organism/rightMenu'
 import About from '@/components/molecule/about'
 import Languages from '@/components/molecule/languages'
 import ProgrammingLanguages from '@/components/molecule/programmingLanguages'
+import ExtraSkills from '@/components/molecule/extraSkills'
 
 
 const index = () => {
@@ -30,6 +31,7 @@ const index = () => {
         <div className="w-[220px] h-[1.5px] bg-[#F0F0F6] mx-auto m-3" /> {/* m- aply magin around */}
         <ProgrammingLanguages />
         <div className="w-[220px] h-[1.5px] bg-[#F0F0F6] mx-auto m-3" /> {/* m- aply magin around */}
+        <ExtraSkills />
       </div>
       
 
@@ -45,5 +47,6 @@ const index = () => {
     </div>
   )
 }
+
 
 export default index

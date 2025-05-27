@@ -9,7 +9,6 @@ const index = () => {
         </div>
         <div className='w-[220px] h-[4px] bg-white border border-yellow-400 rounded-full'>
             <div className='w-[70%] h-full bg-yellow-400 rounded-full'></div>
-
         </div>
     </div>
   )
