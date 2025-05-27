@@ -15,16 +15,20 @@ const index = () => {
   return (
     <div className='flex min-h-screen bg-gray-500 max-w-screen-xl mx-auto'>
       {/* LEFT BAR */}
-      <div className='w-1/3 bg-orange-300 p-4'>                           
+      <div className='w-1/5 bg-orange-300 p-4 flex flex-col items-center'>                           
         <AvatarMolecule />
+
+        <div className="w-[220px] h-[1.5px] bg-[#F0F0F6] mx-auto m-3" /> {/* m- aply magin around */}
       </div>
+      
 
       {/* Main Bar */}
-      <div className=' w-1/2 bg-blue-400'>
+      <div className=' w-2/3 bg-blue-400'>
         Main Bar
       </div>
-      <div className='w-1/5 bg-green-500'>
-        Right Bar
+      <div className='w-1/6 bg-green-500 mx-auto flex flex-col items-center p-4'>
+        Link
+        <RightMenu />
       </div>
       
     </div>
