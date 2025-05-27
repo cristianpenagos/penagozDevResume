@@ -13,9 +13,9 @@ import RightMenu from '@/organism/rightMenu'
 
 const index = () => {
   return (
-    <div className='flex min-h-screen bg-gray-500'>
+    <div className='flex min-h-screen bg-gray-500 max-w-screen-xl mx-auto'>
       {/* LEFT BAR */}
-      <div className='w-1/4 bg-orange-300 p-4'>                           
+      <div className='w-1/3 bg-orange-300 p-4'>                           
         <AvatarMolecule />
       </div>
 
@@ -23,7 +23,7 @@ const index = () => {
       <div className=' w-1/2 bg-blue-400'>
         Main Bar
       </div>
-      <div className='w-1/4 bg-green-500'>
+      <div className='w-1/5 bg-green-500'>
         Right Bar
       </div>
       
