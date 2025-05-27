@@ -10,6 +10,9 @@ import NameDev from '@/components/atom/sidebar/nameDev'
 import RolDev from '@/components/atom/sidebar/rolDev'
 import AvatarMolecule from '@/components/molecule/avatar'
 import RightMenu from '@/organism/rightMenu'
+import About from '@/components/molecule/about'
+import Languages from '@/components/molecule/languages'
+
 
 const index = () => {
   return (
@@ -19,6 +22,10 @@ const index = () => {
         <AvatarMolecule />
 
         <div className="w-[220px] h-[1.5px] bg-[#F0F0F6] mx-auto m-3" /> {/* m- aply magin around */}
+        <About />
+
+        <div className="w-[220px] h-[1.5px] bg-[#F0F0F6] mx-auto m-3" /> {/* m- aply magin around */}
+        <Languages />
       </div>
       
 
