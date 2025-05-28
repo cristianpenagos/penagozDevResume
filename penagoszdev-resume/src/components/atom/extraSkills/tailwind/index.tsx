@@ -11,7 +11,7 @@ const index = () => {
         <div className="absolute border border-yellow-400 w-3 h-3"></div>
       </div>
       <div>
-        <span className="font-bold p-4">Git, GitHub</span>
+        <span className="font-bold p-4">Tailwind</span>
       </div>
     </div>
   )

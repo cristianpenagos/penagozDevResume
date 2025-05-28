@@ -32,12 +32,16 @@ const index = () => {
         <ProgrammingLanguages />
         <div className="w-[220px] h-[1.5px] bg-[#F0F0F6] mx-auto m-3" /> {/* m- aply magin around */}
         <ExtraSkills />
+        <div className="w-[220px] h-[1.5px] bg-[#F0F0F6] mx-auto m-3" /> {/* m- aply magin around */}
       </div>
       
 
       {/* Main Bar */}
-      <div className=' w-2/3 bg-blue-400'>
-        Main Bar
+      <div className='w-2/3 bg-blue-400 flex justify-center'>
+        <div className='mt-10 flex flex-col items-center justify-center w-11/12 pl-10 h-fit bg-amber-400 p-4 rounded-md shadow'>
+            <span>Nueva Molecula</span>
+        </div>
+        
       </div>
       <div className='w-1/6 bg-green-500 mx-auto flex flex-col items-center p-4'>
         Link
