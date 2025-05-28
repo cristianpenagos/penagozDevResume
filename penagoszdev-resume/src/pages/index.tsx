@@ -14,6 +14,8 @@ import About from '@/components/molecule/about'
 import Languages from '@/components/molecule/languages'
 import ProgrammingLanguages from '@/components/molecule/programmingLanguages'
 import ExtraSkills from '@/components/molecule/extraSkills'
+import Greeting from '@/components/molecule/greeting'
+import Knowledge from '@/components/molecule/knowledge'
 
 
 const index = () => {
@@ -37,9 +39,12 @@ const index = () => {
       
 
       {/* Main Bar */}
-      <div className='w-2/3 bg-blue-400 flex justify-center'>
-        <div className='mt-10 flex flex-col items-center justify-center w-11/12 pl-10 h-fit bg-amber-400 p-4 rounded-md shadow'>
-            <span>Nueva Molecula</span>
+      <div className='w-2/3 bg-blue-400 flex flex-col items-center'>
+        <div className='mt-10 flex flex-col items-center justify-center w-11/12 pl-10 h-80 bg-amber-400 p-4 rounded-md shadow'>
+        <Greeting /> 
+        </div>
+        <div className='mt-10 flex flex-col items-center justify-center w-11/12 pl-10 h-80 bg-amber-400 p-4 rounded-md shadow'>
+          <Knowledge /> 
         </div>
         
       </div>
