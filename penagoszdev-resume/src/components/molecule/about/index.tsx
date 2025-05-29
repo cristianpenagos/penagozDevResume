@@ -7,7 +7,7 @@ import Address from '@/components/atom/about/address'
 
 const index = () => {
   return (
-    <div className='bg-gray-600 w-56 h-32'>
+    <div className='bg-white w-56 h-32'>
         <Age />
         <Residence />
         <FreelanceStatus />

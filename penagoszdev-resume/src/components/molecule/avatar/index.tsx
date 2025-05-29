@@ -6,7 +6,7 @@ import RolDev from '@/components/atom/sidebar/rolDev'
 
 const index = () => {
   return (
-    <div className='bg-amber-300 w-36 h-60 flex flex-col'>
+    <div className='bg-white w-36 h-60 flex flex-col'>
 
         <div className='relative'>
             <Avatar />

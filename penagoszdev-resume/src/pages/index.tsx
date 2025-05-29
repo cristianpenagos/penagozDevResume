@@ -20,9 +20,9 @@ import Knowledge from '@/components/molecule/knowledge'
 
 const index = () => {
   return (
-    <div className='flex min-h-screen bg-gray-500 max-w-screen-xl mx-auto'>
+    <div className='flex min-h-screen bg-white max-w-screen-xl mx-auto'>
       {/* LEFT BAR */}
-      <div className='w-1/5 bg-orange-300 p-4 flex flex-col items-center'>                           
+      <div className='w-1/5 bg-white p-4 flex flex-col items-center'>                           
         <AvatarMolecule />
 
         <div className="w-[220px] h-[1.5px] bg-[#F0F0F6] mx-auto m-3" /> {/* m- aply magin around */}
@@ -39,16 +39,16 @@ const index = () => {
       
 
       {/* Main Bar */}
-      <div className='w-2/3 bg-blue-400 flex flex-col items-center'>
-        <div className='mt-10 flex flex-col items-center justify-center w-11/12 pl-10 h-80 bg-amber-400 p-4 rounded-md shadow'>
+      <div className='w-2/3 bg-gray-100 flex flex-col items-center'>
+        <div className='mt-10 flex flex-col items-center justify-center w-11/12 pl-10 h-80 bg-gray-100 pb-24 rounded-md shadow'>
         <Greeting /> 
         </div>
-        <div className='mt-10 flex flex-col items-center justify-center w-11/12 pl-10 h-80 bg-amber-400 p-4 rounded-md shadow'>
+        <div className='mt-10 flex flex-col items-center justify-center w-11/12 pl-10 h-80 bg-gray-100 p-4 rounded-md shadow'>
           <Knowledge /> 
         </div>
         
       </div>
-      <div className='w-1/6 bg-green-500 mx-auto flex flex-col items-center p-4'>
+      <div className='w-1/6 bg-white mx-auto flex flex-col items-center p-4'>
         Link
         <RightMenu />
       </div>

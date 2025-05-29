@@ -6,7 +6,7 @@ import Button from '@/components/atom/greeting/button'
 
 const index = () => {
   return (
-    <div className='flex flex-row-reverse items-center justify-center h-screen bg-gray-100'>
+    <div className='flex flex-row-reverse items-center justify-center h-screen bg-white'>
         <div>
             <Photo />
         </div>

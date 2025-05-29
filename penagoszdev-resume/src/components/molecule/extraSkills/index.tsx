@@ -6,7 +6,7 @@ import Scrum from '@/components/atom/extraSkills/scrum'
 
 const index = () => {
   return (
-    <div className='bg-fuchsia-400 w-56 h-56'>
+    <div className='bg-white w-56 h-56'>
         <span className='font-bold p-4'>Extra Skills</span>
         <GitHub />
         <Docker />
